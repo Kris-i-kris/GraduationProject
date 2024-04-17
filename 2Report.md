@@ -17,9 +17,10 @@
 <details>
    <summary>Report</summary>
 
-![1.jpg](..%2F..%2FDesktop%2F1.jpg)
-![2.jpg](..%2F..%2FDesktop%2F2.jpg)
-![FireShot Capture 048 - Allure Report - 172.17.64.1.jpg](..%2F..%2FDesktop%2FFireShot%20Capture%20048%20-%20Allure%20Report%20-%20172.17.64.1.jpg)
+![1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/dd8c6611-b107-4c92-835f-2a3d6529744c)
+![2](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/1bb094eb-c49f-44ea-aa74-da9fc5b25924)
+![FireShot Capture 048 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/0d683278-5556-4348-a509-8c6e344d4ef8)
+
 
 </details>
 
@@ -31,10 +32,11 @@
 <details>
    <summary>Report</summary>
 
-![3.jpg](..%2F..%2FDesktop%2F3.jpg)
-![5.jpg](..%2F..%2FDesktop%2F5.jpg)
-![FireShot Capture 050 - Allure Report - 172.17.64.1.jpg](..%2F..%2FDesktop%2FFireShot%20Capture%20050%20-%20Allure%20Report%20-%20172.17.64.1.jpg)
-![4.jpg](..%2F..%2FDesktop%2F4.jpg)
+![3](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/b93757cd-a265-4d9a-a213-66a8db5cfe8b)
+![5](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/04b61f30-3078-4159-b57c-096c0125514f)
+![FireShot Capture 050 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/07b0e297-db07-4e0e-99af-cb20ac18fa51)
+![4](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/ae42cdb7-bc80-440b-af14-7e55b989159a)
+
 
 </details>
 
