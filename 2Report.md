@@ -26,16 +26,14 @@
 
 #### PostgreSQL
 
-* Успешные кейсы 62,96% (34 Tests);
+* Успешные кейсы 66,66% (34 Tests);
 * Неуспешных кейсов 33,33% (18 Tests);
-* Тестовые дефекты 3,7% (2 Tests);
 <details>
    <summary>Report</summary>
 
-![3](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/b93757cd-a265-4d9a-a213-66a8db5cfe8b)
-![5](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/04b61f30-3078-4159-b57c-096c0125514f)
-![FireShot Capture 050 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/07b0e297-db07-4e0e-99af-cb20ac18fa51)
-![4](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/ae42cdb7-bc80-440b-af14-7e55b989159a)
+![Screenshot_5](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/d550cb10-80b1-46bc-80bb-76b59bc92d36)
+![Screenshot_1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/e73de37c-98ab-4050-8e8c-1c6e31abf156)
+![FireShot Capture 054 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/6e6bde1a-5e1c-4297-ac5f-d08b29248aba)
 
 
 </details>
