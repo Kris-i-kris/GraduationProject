@@ -42,3 +42,4 @@ test {
     systemProperty 'username', System.getProperty('username',"postgres")
     systemProperty 'password', System.getProperty('password', "pass")
 }
+

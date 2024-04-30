@@ -17,24 +17,24 @@
 <details>
    <summary>Report</summary>
 
-![1.jpg](..%2F..%2FDesktop%2F1.jpg)
-![2.jpg](..%2F..%2FDesktop%2F2.jpg)
-![FireShot Capture 048 - Allure Report - 172.17.64.1.jpg](..%2F..%2FDesktop%2FFireShot%20Capture%20048%20-%20Allure%20Report%20-%20172.17.64.1.jpg)
+![1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/dd8c6611-b107-4c92-835f-2a3d6529744c)
+![2](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/1bb094eb-c49f-44ea-aa74-da9fc5b25924)
+![FireShot Capture 048 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/0d683278-5556-4348-a509-8c6e344d4ef8)
+
 
 </details>
 
 #### PostgreSQL
 
-* Успешные кейсы 62,96% (34 Tests);
+* Успешные кейсы 66,66% (34 Tests);
 * Неуспешных кейсов 33,33% (18 Tests);
-* Тестовые дефекты 3,7% (2 Tests);
 <details>
    <summary>Report</summary>
 
-![3.jpg](..%2F..%2FDesktop%2F3.jpg)
-![5.jpg](..%2F..%2FDesktop%2F5.jpg)
-![FireShot Capture 050 - Allure Report - 172.17.64.1.jpg](..%2F..%2FDesktop%2FFireShot%20Capture%20050%20-%20Allure%20Report%20-%20172.17.64.1.jpg)
-![4.jpg](..%2F..%2FDesktop%2F4.jpg)
+![Screenshot_5](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/d550cb10-80b1-46bc-80bb-76b59bc92d36)
+![Screenshot_1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/e73de37c-98ab-4050-8e8c-1c6e31abf156)
+![FireShot Capture 054 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/6e6bde1a-5e1c-4297-ac5f-d08b29248aba)
+
 
 </details>
 
