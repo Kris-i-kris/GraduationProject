@@ -11,9 +11,11 @@ import java.sql.SQLException;
 public class DBHelper {
     private static final QueryRunner QUERY_RUNNER = new QueryRunner();
 
-    @SneakyThrows
-    private static Connection getConn() {
-        return DriverManager.getConnection(System.getProperty("db.url"), "app", "pass");
+    private static Connection getConn() throws SQLException {
+        var dbUrl = System.getProperty("db.url");
+        var username = System.getProperty("username");
+        var password = System.getProperty("password");
+        return DriverManager.getConnection(dbUrl, username, password);
     }
 
     @SneakyThrows
@@ -21,12 +23,6 @@ public class DBHelper {
         var status = "SELECT status FROM payment_entity ORDER BY created DESC LIMIT 1";
         return QUERY_RUNNER.query(getConn(), status, new ScalarHandler<>());
     }
-
-//    @SneakyThrows
-//    public static String getPaymentAmount() {
-//        var amount = "SELECT amount FROM payment_entity ORDER BY created DESC LIMIT 1";
-//        return QUERY_RUNNER.query(getConn(), amount, new ScalarHandler<>());
-//    }
 
     @SneakyThrows
     public static String getCreditRequestStatus() {
