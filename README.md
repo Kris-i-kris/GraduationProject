@@ -23,7 +23,7 @@
           java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" "-Dspring.datasource.username=app" "-Dspring.datasource.password=pass" -jar ./artifacts/aqa-shop.jar 
 2. В третьем терминале запускаем автотесты командой:
 
-         .\gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app" "-Ddb.url.username=app" "-Ddb.url.password=pass" 
+         .\gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app" "-Dusername=app" "-Dpassword=pass" 
 3. Создать и открыть отчет Allure для просмотра результатов тестирования командой:
 
          .\gradlew allureServe 
@@ -37,7 +37,7 @@
           java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" "-Dspring.datasource.username=postgres" "-Dspring.datasource.password=pass" -jar ./artifacts/aqa-shop.jar
 2. В третьем терминале запускаем автотесты командой:
 
-        .\gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app" "-Ddb.url.username=postgres" "-Ddb.url.password=pass"
+        .\gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app" "-Dusername=postgres" "-Dpassword=pass"
 3. Создать и открыть отчет Allure для просмотра результатов тестирования командой:
 
          .\gradlew allureServe 
