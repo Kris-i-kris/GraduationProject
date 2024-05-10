@@ -17,24 +17,22 @@
 <details>
    <summary>Report</summary>
 
-![1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/dd8c6611-b107-4c92-835f-2a3d6529744c)
-![2](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/1bb094eb-c49f-44ea-aa74-da9fc5b25924)
-![FireShot Capture 048 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/0d683278-5556-4348-a509-8c6e344d4ef8)
-
+![Screenshot_3](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/2170f0ba-fb6c-4fea-a0d5-213ab77a14f6)
+![Screenshot_4](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/1efce660-e78e-4089-a85b-3b67da37c76d)
+![FireShot Capture 064 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/1f2e7033-3cbb-4088-adbb-ed6596b0e6f9)
 
 </details>
 
 #### PostgreSQL
 
-* Успешные кейсы 66,66% (34 Tests);
-* Неуспешных кейсов 33,33% (18 Tests);
+* Успешные кейсы 62,96% (34 Tests);
+* Неуспешных кейсов 37,03% (20 Tests);
 <details>
    <summary>Report</summary>
 
-![Screenshot_5](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/d550cb10-80b1-46bc-80bb-76b59bc92d36)
-![Screenshot_1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/e73de37c-98ab-4050-8e8c-1c6e31abf156)
-![FireShot Capture 054 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/6e6bde1a-5e1c-4297-ac5f-d08b29248aba)
-
+   ![Screenshot_1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/33b33929-3220-46cd-9652-426fa2d391bc)
+![Screenshot_2](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/e3152a04-b87d-430b-acd6-69f68705244a)
+![FireShot Capture 063 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/b9b5e832-3600-48ce-94f6-945894ad1d68)
 
 </details>
 
