@@ -12,18 +12,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.open;
+import static ru.netology.buytour.data.DBHelper.cleanDataBase;
 
 public class DebitTest {
+    @AfterEach
+    void tearDown() {
+        cleanDataBase();
+    }
     @BeforeEach
     void setup() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
-        Map<String, Object> prefs = new HashMap<String, Object>();
-        prefs.put("credentials_enable_service", false);
-        prefs.put("password_manager_enabled", false);
-        options.setExperimentalOption("prefs", prefs);
-        Configuration.browserCapabilities = options;
-
         open("http://localhost:8080");
     }
 

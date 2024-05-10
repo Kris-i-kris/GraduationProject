@@ -35,4 +35,16 @@ public class DBHelper {
         var id = "SELECT credit_id FROM order_entity ORDER BY created DESC LIMIT 1";
         return QUERY_RUNNER.query(getConn(), id, new ScalarHandler<>());
     }
+    @SneakyThrows
+    public static String getDebitId() {
+        var id = "SELECT payment_id FROM order_entity ORDER BY created DESC LIMIT 1";
+        return QUERY_RUNNER.query(getConn(), id, new ScalarHandler<>());
+    }
+    @SneakyThrows
+    public static void cleanDataBase() {
+        var connection = getConn();
+        QUERY_RUNNER.execute(connection, "DELETE FROM credit_request_entity");
+        QUERY_RUNNER.execute(connection, "DELETE FROM order_entity");
+        QUERY_RUNNER.execute(connection, "DELETE FROM payment_entity ");
+    }
 }

@@ -9,10 +9,13 @@ import ru.netology.buytour.data.DataHelper;
 import ru.netology.buytour.page.PageHome;
 
 import static com.codeborne.selenide.Selenide.open;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static ru.netology.buytour.data.DBHelper.getCreditId;
+import static ru.netology.buytour.data.DBHelper.*;
 
 public class DBTest {
+    @AfterEach
+    void tearDown() {
+        cleanDataBase();
+    }
     @BeforeEach
     void setup() {
         open("http://localhost:8080");
@@ -36,7 +39,7 @@ public class DBTest {
         debitPage.cardInfo(validCardInfo);
         debitPage.approvedMassage();
         Assertions.assertEquals("APPROVED", DBHelper.getPaymentStatus());
-//        assertEquals(45000, DBHelper.getPaymentAmount());
+        Assertions.assertNotNull(getDebitId());
     }
 
     @Test
@@ -47,27 +50,28 @@ public class DBTest {
         debitPage.cardInfo(invalidCardInfo);
         debitPage.declinedMassage();
         Assertions.assertEquals("DECLINED", DBHelper.getPaymentStatus());
+        Assertions.assertNotNull(getDebitId());
     }
 
     @Test
     @DisplayName("База Данных.Кредит по карте APPROVED")
     void checkAPPROVEDCardCredit() {
         var validCardInfo = DataHelper.getAPPROVED();
-        var debitPage = new PageHome().buyDebit();
+        var debitPage = new PageHome().buyCredit();
         debitPage.cardInfo(validCardInfo);
         debitPage.approvedMassage();
         Assertions.assertEquals("APPROVED", DBHelper.getCreditRequestStatus());
-        Assertions.assertNull(getCreditId());
+        Assertions.assertNotNull(getCreditId());
     }
 
     @Test
     @DisplayName("База Данных.Кредит по карте DECLINED")
     void checkDECLINEDCardCredit() {
         var invalidCardInfo = DataHelper.getDECLINED();
-        var debitPage = new PageHome().buyDebit();
+        var debitPage = new PageHome().buyCredit();
         debitPage.cardInfo(invalidCardInfo);
         debitPage.declinedMassage();
         Assertions.assertEquals("DECLINED", DBHelper.getCreditRequestStatus());
-        Assertions.assertNull(getCreditId());
+        Assertions.assertNotNull(getCreditId());
     }
 }
