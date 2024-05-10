@@ -12,27 +12,27 @@
 
 #### MySQL
 
-* Успешные кейсы 66,66% (36 Tests);
-* Неуспешных кейсов 33,33% (18 Tests);
+* Успешные кейсы 64,81% (35 Tests);
+* Неуспешных кейсов 35,19% (19 Tests);
 <details>
    <summary>Report</summary>
 
-![Screenshot_3](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/2170f0ba-fb6c-4fea-a0d5-213ab77a14f6)
-![Screenshot_4](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/1efce660-e78e-4089-a85b-3b67da37c76d)
-![FireShot Capture 064 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/1f2e7033-3cbb-4088-adbb-ed6596b0e6f9)
+![1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/eac441e6-7e63-417d-9a2e-c46e3d5436ac)
+![2](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/5ab88819-4d09-42d1-be4f-3e228feab1cf)
+![FireShot Capture 065 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/a482b845-e836-449c-b622-959028ed76c5)
 
 </details>
 
 #### PostgreSQL
 
-* Успешные кейсы 62,96% (34 Tests);
-* Неуспешных кейсов 37,03% (20 Tests);
+* Успешные кейсы 64,81% (35 Tests);
+* Неуспешных кейсов 35,19% (19 Tests);
 <details>
    <summary>Report</summary>
 
-   ![Screenshot_1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/33b33929-3220-46cd-9652-426fa2d391bc)
-![Screenshot_2](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/e3152a04-b87d-430b-acd6-69f68705244a)
-![FireShot Capture 063 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/b9b5e832-3600-48ce-94f6-945894ad1d68)
+  ![Screenshot_1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/fa0dcc87-c3c2-452d-921b-20463eceac40)
+![Screenshot_2](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/111a6df3-8abb-4271-93fb-4b7bbd78468d)
+![FireShot Capture 066 - Allure Report - 172 17 64 1](https://github.com/Kris-i-kris/GraduationProject/assets/138568517/d01a6974-a60e-440c-b1c7-71acc38c84f5)
 
 </details>
 
